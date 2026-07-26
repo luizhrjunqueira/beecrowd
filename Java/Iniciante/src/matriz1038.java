@@ -36,8 +36,8 @@ public class matriz1038 {
                 preco = 0.00;
         }
 
-
-    double valor = preco * quantidade;
+        double valor = preco * quantidade;
         System.out.printf("Total: R$ %.2f%n", valor);
+        sc.close();
     }
 }

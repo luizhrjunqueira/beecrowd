@@ -80,5 +80,7 @@ public class matriz1021 {
         quociente = (resto / moeda);
         System.out.printf("%.0f moeda(s) de R$ %.2f%n", quociente, moeda);
         resto %= moeda;
+
+        sc.close();
     }
 }
