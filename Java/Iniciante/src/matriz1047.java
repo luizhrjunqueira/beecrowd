@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class matriz1047 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int horaInicial = sc.nextInt();
@@ -22,7 +22,7 @@ public class matriz1047 {
         int duracaoHoras = duracao / 60;
         int duracaoMinutos = duracao % 60;
 
-        System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)", duracaoHoras, duracaoMinutos);
+        System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)%n", duracaoHoras, duracaoMinutos);
 
         sc.close();
     }
